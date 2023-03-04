@@ -1,6 +1,6 @@
 package exeption;
 
-public class DomainExeption extends Exception{
+public class DomainExeption extends RuntimeException{
 		
 	private static final long serialVersionUID = 1L;
 

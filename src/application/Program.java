@@ -36,6 +36,8 @@ public class Program {
 			System.out.println("invalida date");
 		}catch(DomainExeption e) {
 			System.out.println("Erro in reservation : " + e.getMessage());
+		}catch(RuntimeException e) {
+			System.out.println("unexpected error");
 		}
 		
 		sc.close();
